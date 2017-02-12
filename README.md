@@ -70,5 +70,5 @@ Follows the same patterns as a `.gitignore` file.
 
 <details>
   <summary>`!/build`</summary>
-  Whitelist the `build` directory. Because we didn't blacklist the files in every folder recursively, a `cf push` command will include all of this directories contents as well. Change the name of this file if compiling production assets to a different directory.
+  Whitelist the `build` directory. Because we didn't blacklist the files in every folder recursively, a `cf push` command will include all of this directories contents as well. Change the name of this directory if compiling production assets to a different directory.
 </details>
